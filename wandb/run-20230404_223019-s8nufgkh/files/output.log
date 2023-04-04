@@ -1,0 +1,5 @@
+Saving model checkpoint to bert_trainer\checkpoint-20000
+Configuration saved in bert_trainer\checkpoint-20000\config.json
+Model weights saved in bert_trainer\checkpoint-20000\pytorch_model.bin
+***** Running Evaluation *****
+  Num examples = 19373
