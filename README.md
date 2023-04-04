@@ -1,6 +1,10 @@
 # Project Title
 
 ## How to set up and run the project locally through JupyterNotebook or JupyterLab
+1. Extract the folder from the zipped file that you can download through this DownGit [link](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/francheska-vicente/data103-project).
+2. Launch `Jupyter notebook` or `JupyterLab`.
+3. Navigate to the project folder containing main.ipynb.
+4. Open `main.ipynb`. This contains the **data pre-processing** and **cleaning**, the **Exploratory Data Analysis**, and the **model training and tuning** of the best model.
 
 ## Project Files and Folders
 This Github Repository contains three Jupyter notebooks, and two CSV files.
