@@ -1,7 +1,0 @@
-Saving model checkpoint to bert_trainer\checkpoint-20000
-Configuration saved in bert_trainer\checkpoint-20000\config.json
-Model weights saved in bert_trainer\checkpoint-20000\pytorch_model.bin
-***** Running Evaluation *****
-  Num examples = 19373
-  Batch size = 8
-C:\Users\admin\AppData\Local\Temp\ipykernel_9128\3177866584.py:5: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
