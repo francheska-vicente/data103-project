@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-04-07T23:44:01.641596",
+    "startedAt": "2023-04-07T23:44:00.902480",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "DATA103/project-repository/data103-project/ModelingPT1.ipynb",
+    "root": "C:/Users/admin/Desktop/Uni/DATA103/project-repository/data103-project",
+    "git": {
+        "remote": "https://github.com/francheska-vicente/data103-project.git",
+        "commit": "b67df854ba7550619f1fb0389bf4f267c70a3b85"
+    },
+    "email": "80678453+francheska-vicente@users.noreply.github.com",
+    "host": "Cheska-PC",
+    "username": "admin",
+    "executable": "C:\\Users\\admin\\anaconda3\\python.exe",
+    "cpu_count": 10,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2500.0,
+        "min": 0.0,
+        "max": 2500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2500.0,
+            "min": 0.0,
+            "max": 2500.0
+        }
+    ],
+    "disk": {
+        "total": 446.42577743530273,
+        "used": 193.36440658569336
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 31.844818115234375
+    }
+}
