@@ -17,8 +17,9 @@ This Github Repository contains three Jupyter notebooks, and two CSV files.
 | [`ModelingPT2.ipynb`](ModelingPT2.ipynb)        | Notebook that holds the training and tuning of Logistic Regression, Multinomial Naive Bayes, and Random Forest Classifier models      |
 
 #### Comma-separated values (CSV) files
-The two CSV files holds the dataset that was used to train the models. However, their main difference is the presence of unnecessary character sequences (i.e., hashtags, media links, square brackets, usernames, retweet tags).
-| CSV files                                                                                | Description                                               |
-|-------------------------------------------------------------------------------------------|----------------------------------------------------------|
-| [`cleaned_data.csv`](cleaned_data.csv)                                                    | Dataset with unnecessary character sequences             |
-| [`cleaned_data_with_char_seq_removal.csv`](cleaned_data_with_char_seq_removal.csv)        | Dataset without the unnecessary character sequences      |
+Running the [`main.ipynb`](ToxicComment_S13_Group8.ipynb) notebook will result in the creation of three CSV files. The three CSV files holds the dataset that was used to train the models. However, the main difference of the first two files is the presence of unnecessary character sequences (i.e., hashtags, media links, square brackets, usernames, retweet tags), while the third file is the lemmatized version of the second file.
+| CSV files                                    | Description                                                                        |
+|----------------------------------------------|------------------------------------------------------------------------------------|
+| `cleaned_data.csv`                           | Dataset with unnecessary character sequences                                       |
+| `cleaned_data_with_char_seq_removal.csv`     | Dataset without the unnecessary character sequences                                |
+| `lemmatized_with_char_seq_removal.csvv`      | Lemmatized version of the dataset without the unnecessary character sequences      |
