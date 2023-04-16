@@ -29,7 +29,7 @@ Running the [`main.ipynb`](ToxicComment_S13_Group8.ipynb) notebook will result i
 |----------------------------------------------|------------------------------------------------------------------------------------|
 | `cleaned_data.csv`                           | Dataset with unnecessary character sequences                                       |
 | `cleaned_data_with_char_seq_removal.csv`     | Dataset without the unnecessary character sequences                                |
-| `lemmatized_with_char_seq_removal.csvv`      | Lemmatized version of the dataset without the unnecessary character sequences      |
+| `lemmatized_with_char_seq_removal.csv`      | Lemmatized version of the dataset without the unnecessary character sequences      |
 
 ## Trying out the Models
 You can try out our trained models in the [`ModelPrediction.ipynb`](ModelPrediction.ipynb) notebook! Note that the Random Forest classifiers are not included in this. 
