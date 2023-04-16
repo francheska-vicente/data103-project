@@ -19,7 +19,7 @@ This Github Repository contains three Jupyter notebooks, and two CSV files.
 #### Jupyter Notebooks
 | Jupyter notebooks                               | Description                                                                 |
 |-------------------------------------------------|-----------------------------------------------------------------------------|
-| [`main.ipynb`](ToxicComment_S13_Group8.ipynb)   | Main notebook that also holds the Data Cleaning and Pre-processing, and EDA |
+| [`main.ipynb`](main.ipynb)                      | Main notebook that also holds the Data Cleaning and Pre-processing, and EDA |
 | [`ModelingPT1.ipynb`](ModelingPT1.ipynb)        | Notebook that holds the training and tuning of BERT and RoBERTa models      |
 | [`ModelingPT2.ipynb`](ModelingPT2.ipynb)        | Notebook that holds the training and tuning of Logistic Regression, Multinomial Naive Bayes, and Random Forest Classifier models      |
 
@@ -32,7 +32,7 @@ Running the [`main.ipynb`](ToxicComment_S13_Group8.ipynb) notebook will result i
 | `lemmatized_with_char_seq_removal.csvv`      | Lemmatized version of the dataset without the unnecessary character sequences      |
 
 ## Trying out the Models
-You can try out our trained models in this [`notebook`](https://colab.research.google.com/drive/1STSratC6sD_Tkq_3gFx1lMFqZaIElHVg?usp=sharing)!
+You can try out our trained models in the [`ModelPrediction.ipynb`](ModelPrediction.ipynb) notebook! Note that the Random Forest classifiers are not included in this. 
 
 ## Authors
 - **Jean Pauline Gozon**  <br/>
