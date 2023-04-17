@@ -19,12 +19,13 @@ Those individuals that fall into the generated classes can be presented with app
 This Github Repository contains four Jupyter notebooks, and three CSV files.
 
 #### Jupyter Notebooks
-| Jupyter notebooks                                | Description                                                                                    |
-|--------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [`main.ipynb`](main.ipynb)                       | Main notebook that also holds the Data Cleaning and Pre-processing, and EDA                    |
-| [`ModelingPT1.ipynb`](ModelingPT1.ipynb)         | Notebook that holds the training and tuning of BERT and RoBERTa models                         |
-| [`ModelingPT2.ipynb`](ModelingPT2.ipynb)         | Notebook that holds the training and tuning of Logistic Regression, Multinomial Naive Bayes, and Random Forest Classifier models      |
-| [`ModelPrediction.ipynb`](ModelPrediction.ipynb) | Notebook that allows the prediction of user-inputted text using all of the trained models      |
+| Jupyter notebooks                                              | Description                                                                                    |
+|----------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| [`main.ipynb`](main.ipynb)                                     | Main notebook that also holds the Data Cleaning and Pre-processing, and EDA                    |
+| [`ModelingPT1.ipynb`](ModelingPT1.ipynb)                       | Notebook that holds the training and tuning of BERT and RoBERTa models                         |
+| [`ModelingPT2.ipynb`](ModelingPT2.ipynb)                       | Notebook that holds the training and tuning of Logistic Regression, Multinomial Naive Bayes, and Random Forest Classifier models      |
+| [`ModelingPT2_Lemmatized.ipynb`](ModelingPT2_Lemmatized.ipynb) | Notebook that holds the training and tuning of Logistic Regression, Multinomial Naive Bayes, and Random Forest Classifier models with the lemmatized dataset      |
+| [`ModelPrediction.ipynb`](ModelPrediction.ipynb)               | Notebook that allows the prediction of user-inputted text using all of the trained models      |
 
 #### Comma-separated values (CSV) files
 Running the [`main.ipynb`](ToxicComment_S13_Group8.ipynb) notebook will result in the creation of three CSV files. The three CSV files holds the dataset that was used to train the models. However, the main difference of the first two files is the presence of unnecessary character sequences (i.e., hashtags, media links, square brackets, usernames, retweet tags), while the third file is the lemmatized version of the second file.
@@ -32,7 +33,7 @@ Running the [`main.ipynb`](ToxicComment_S13_Group8.ipynb) notebook will result i
 |----------------------------------------------|------------------------------------------------------------------------------------|
 | `cleaned_data.csv`                           | Dataset with unnecessary character sequences                                       |
 | `cleaned_data_with_char_seq_removal.csv`     | Dataset without the unnecessary character sequences                                |
-| `lemmatized_with_char_seq_removal.csv`      | Lemmatized version of the dataset without the unnecessary character sequences      |
+| `lemmatized_with_char_seq_removal.csv`       | Lemmatized version of the dataset without the unnecessary character sequences      |
 
 ## Trying out the Models
 You can try out our trained models in the [`ModelPrediction.ipynb`](ModelPrediction.ipynb) notebook! Note that the Random Forest classifiers are not included in this. 
