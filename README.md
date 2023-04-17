@@ -38,7 +38,7 @@ Running the [`main.ipynb`](ToxicComment_S13_Group8.ipynb) notebook will result i
 ## Trying out the Models
 You can try out our trained models in the [`ModelPrediction.ipynb`](ModelPrediction.ipynb) notebook! Note that the Random Forest classifiers are not included in this. 
 
-For the model with the highest accuracy (i.e., RoBERTa), it can be accessed in this [`website`](https://data103-web-app-production.up.railway.app/). 
+For the model with the highest accuracy (i.e., RoBERTa), it can be accessed in this [`website`](https://suicide-detection-tool.up.railway.app/). 
 
 ## Authors
 - **Jean Pauline Gozon**  <br/>
