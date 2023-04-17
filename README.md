@@ -16,7 +16,7 @@ Those individuals that fall into the generated classes can be presented with app
 6. To play around with the models, open `ModelPrediction.ipynb`.
 
 ## Project Files and Folders
-This Github Repository contains four Jupyter notebooks, and three CSV files.
+This Github Repository contains five Jupyter notebooks, and three CSV files.
 
 #### Jupyter Notebooks
 | Jupyter notebooks                                              | Description                                                                                    |
