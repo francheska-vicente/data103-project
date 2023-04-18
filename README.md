@@ -1,4 +1,4 @@
-# Project Title
+# You Matter, Words Matter: A Suicide Prevention Tool
 Social media recommendation algorithms are steadily improving—they are nowadays more likely to show content that users will interact with. This is by recommending contents based on the previous interactions of users. However, a disadvantage of this is, what would be the resulting recommendations to a person who is depressed that mostly interacts with depressing content? In the scenario that it would recommend triggering content, what could prevent these recommendations?
 
 Every individual’s life is immeasurable in terms of worth. Depression and suicide are topics that should be taken seriously. More often than not, people focus on the physical being instead of the mental being. For some people, going to professionals and even guidance counselors for mental health concerns are considered taboo or looked down upon. Thus, people may result in posting their thoughts anonymously online as a means to cope with negative thoughts.
